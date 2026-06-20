@@ -24,6 +24,12 @@ Tourist Sites (Vertices):
 | Site | Coordinates |
 | --- | --- |
 | Train Station | (4,9) |
+| Library | (3, 7) |
+| Market Square | (2, 4) |
+| St. Michael's Church | (1, 6) |
+| Leisure Centre | (6, 5) |
+| Peoples Park | (5, 3) |
+| Solas Eco Garden Centre | (4, 2) |
 
 Walking Paths (Edges):
 | From | To | Distance (km) |
@@ -32,6 +38,9 @@ Walking Paths (Edges):
 | Peoples Park | Leisure Centre | 1.2 |
 | St. Michael's Church | Peoples Park | 1.6 |
 | Train Station | Library | 1.8 |
+| Library | St. Michael's Church | 2.0 |
+| Market Square | Solas Eco Garden Centre | 2.3 |
+| Solas Eco Garden Centre | Train Station | 3.1 |
 
 Four algorithms were implemented:
 - Search(site): finds a site by name and returns its coordinates
