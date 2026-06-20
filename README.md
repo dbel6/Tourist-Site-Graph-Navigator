@@ -20,7 +20,7 @@ The challenge was to implement this from scratch in Java (no libraries) and writ
 ## Approach
 The graph is stored using an Edge List consisting of an array of edges, each holding a start site, end site, and weight (distance in km). This is paired with a Vertex List storing each tourist site's name and (x,y) coordinates.
 
-Tourist Sites (Vertices):
+### Tourist Sites (Vertices):
 | Site | Coordinates |
 | --- | --- |
 | Train Station | (4,9) |
@@ -31,7 +31,7 @@ Tourist Sites (Vertices):
 | Peoples Park | (5, 3) |
 | Solas Eco Garden Centre | (4, 2) |
 
-Walking Paths (Edges):
+### Walking Paths (Edges):
 | From | To | Distance (km) |
 | --- | --- | --- |
 | Leisure Centre | Market Square | 0.9 |
@@ -42,7 +42,7 @@ Walking Paths (Edges):
 | Market Square | Solas Eco Garden Centre | 2.3 |
 | Solas Eco Garden Centre | Train Station | 3.1 |
 
-Four algorithms were implemented:
+#### Four algorithms were implemented:
 - Search(site): finds a site by name and returns its coordinates
 - Insert(site1, site2, weight): adds a new walking path between two sites
 - AllCons(site): lists all sites directly connected to a given site
