@@ -48,6 +48,23 @@ The graph is stored using an Edge List consisting of an array of edges, each hol
 - AllCons(site): lists all sites directly connected to a given site
 - Closest(site): finds the nearest connected site by minimum edge weight
 
+Minimum Spanning Tree was calculated using Kruskal's Algorithm which sorts all edges by weight and adding them one by one, rejecting any edge that would form a cycle. The rejected edge was Solas Eco Garden Centre -> Train Station (3.1 km), as it would have closed a cycle. Total MST weight = 9.8 km across 6 edges.
+
+## Challenges
+
+## Solution
+Graph g = new Graph();
+
+g.addVertex("Train Station", 4, 9);
+g.addVertex("Library", 3, 7);
+
+g.Insert("Leisure Centre", "Market Square", 0.9);
+g.Insert("Train Station", "Library", 1.8);
+
+g.Search("Library");
+g.AllCons("Leisure Centre");
+g.Closest("Peoples Park");
+
 ## Topics Covered
 - Linked Lists
 - Stacks
