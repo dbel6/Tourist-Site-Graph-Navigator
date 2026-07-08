@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Tourist Site Graph Navigator
 
 A Java implementation of a weighted graph data structure applied to a real-world tourist navigation problem, mapping walking paths between sites in a town using an Edge List representation, Kruskal's MST algorithm, and four custom graph algorithms.
 
@@ -51,6 +51,9 @@ The graph is stored using an Edge List consisting of an array of edges, each hol
 Minimum Spanning Tree was calculated using Kruskal's Algorithm which sorts all edges by weight and adding them one by one, rejecting any edge that would form a cycle. The rejected edge was Solas Eco Garden Centre -> Train Station (3.1 km), as it would have closed a cycle. Total MST weight = 9.8 km across 6 edges.
 
 ## Challenges
+- Cycle detection in Kruskal's required careful step-by-step menual tracing of the growing spanning tree to identify which edges would close a loop
+- Ensuring AllCons and Closest checked both start and end of each edge was essential since the graph is undirected and paths go both ways
+- Working without ArrayList or built-in graph libraries meant managing index counters (vertexCount, edgeCount) manually throughout
 
 ## Solution
 ```java
