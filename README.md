@@ -53,6 +53,7 @@ Minimum Spanning Tree was calculated using Kruskal's Algorithm which sorts all e
 ## Challenges
 
 ## Solution
+```
 Graph g = new Graph();
 
 g.addVertex("Train Station", 4, 9);
@@ -64,6 +65,7 @@ g.Insert("Train Station", "Library", 1.8);
 g.Search("Library");
 g.AllCons("Leisure Centre");
 g.Closest("Peoples Park");
+```
 
 ## Topics Covered
 - Linked Lists
