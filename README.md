@@ -67,6 +67,18 @@ g.AllCons("Leisure Centre");
 g.Closest("Peoples Park");
 ```
 
+### Sample Output:
+Search() output:
+Found site: Library at coordinates (3, 7)
+
+AllCons() output:
+Connections for: Leisure Centre
+Connected to: Market Square with weight 0.9
+Connected to: Peoples Park with weight 1.2
+
+Closest() output:
+Closest site to Peoples Park is Leisure Centre with weight 1.2
+
 ## Topics Covered
 - Linked Lists
 - Stacks
