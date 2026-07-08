@@ -106,21 +106,15 @@ java Main
 ```
 
 ## Project Structure
+```
 ├── Main.java       # Driver class: builds the graph and runs all algorithms
 ├── Graph.java      # Core graph class with Search, Insert, AllCons, Closest
 ├── Vertex.java     # Vertex model (name, x, y coordinates)
 ├── Edge.java       # Edge model (start, end, weight)
 └── README.md
+```
 
-## Topics Covered
-- Linked Lists
-- Stacks
-- Queues
-
-## Purpose
-To develop a deeper understanding of how data structures work and how they impact algorithm efficiency.
-
-## What I learned
-- Core principles of data organisation
-- Problem-solving and algorithm design
-- Time and space complexity basics
+## Built with
+- Java 21
+- IntelliJ IDEA
+- No external libraries (pure Java implementation)
