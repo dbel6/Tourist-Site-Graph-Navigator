@@ -110,10 +110,13 @@ java Main
 
 ## Project Structure
 ```
-├── Main.java       # Driver class: builds the graph and runs all algorithms
-├── Graph.java      # Core graph class with Search, Insert, AllCons, Closest
-├── Vertex.java     # Vertex model (name, x, y coordinates)
-├── Edge.java       # Edge model (start, end, weight)
+├── Main.java                           # Driver class, builds the graph and runs all algorithms
+├── Graph.java                          # Core graph class with Search, Insert, AllCons, Closest
+├── Vertex.java                         # Vertex model (name, x, y coordinates)
+├── Edge.java                           # Edge model (start, end, weight)
+├── TadhgBrennanAndDanielBelovExe.jar   # Compiled executable
+├── TadhgBrennanAndDanielBelovCode.pdf  # Full documented source code
+├── TadhgBrennanAndDanielBelovReport.pdf # Project report with diagrams and analysis
 └── README.md
 ```
 
