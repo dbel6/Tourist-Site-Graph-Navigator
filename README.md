@@ -53,7 +53,7 @@ Minimum Spanning Tree was calculated using Kruskal's Algorithm which sorts all e
 ## Challenges
 
 ## Solution
-```
+```java
 Graph g = new Graph();
 
 g.addVertex("Train Station", 4, 9);
