@@ -81,6 +81,37 @@ Closest() output:
 Closest site to Peoples Park is Leisure Centre with weight 1.2
 ```
 
+## Results
+- All four algorithms produce correct output for the given graph data
+- Kruskal's MST correctly identifies 6 edges (n-1 for 7 vertices) with a total weight of 9.8km
+- The rejected edge (Solas Eco Garden Centre -> Train Station, 3.1km) was correctly identified as cycle forming
+- Program exits with code 0 (no errors)
+
+## Next Steps
+- Implement Dijkstra's shortest path algorithm to find the optimal route between any two sites
+- Replace fixed-size arrays with dynamic collections (ArrayList) to remove the 20-vertex/ 40-edge cap
+- Add a visual GUI to display the graph map interactively
+- Extend the hash table component (Part 1) to support delete and resize operations
+- Generalise the system to accept any graph as input (e.g. via file or user input) rather than hardcoded data
+
+## How to run
+### Option 1: Run the JAR directly:
+```
+java -jar TadhgBrennanAndDanielBelovExe.jar
+```
+### Option 2: Compile from source:
+```
+javac Main.java Vertex.java Edge.java Graph.java
+java Main
+```
+
+## Project Structure
+├── Main.java       # Driver class: builds the graph and runs all algorithms
+├── Graph.java      # Core graph class with Search, Insert, AllCons, Closest
+├── Vertex.java     # Vertex model (name, x, y coordinates)
+├── Edge.java       # Edge model (start, end, weight)
+└── README.md
+
 ## Topics Covered
 - Linked Lists
 - Stacks
