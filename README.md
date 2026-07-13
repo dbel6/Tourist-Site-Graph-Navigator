@@ -99,7 +99,7 @@ Closest site to Peoples Park is Leisure Centre with weight 1.2
 
 ## How to run
 ### Option 1: Run the JAR directly:
-```
+```bash
 java -jar TadhgBrennanAndDanielBelovExe.jar
 ```
 ### Option 2: Compile from source:
